@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mohamed Daud - Software Developer Portfolio">
+    <title>Mohamed Daud</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.3.1/dist/aos.css" />
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+    <div class="content-wrap">
+        <header>
+            <img src="images/moha.JPG" alt="Logo" style="border-radius: 50%; width: 100px; height: 100px;">
+            <h1>Mohamed Daud</h1>
+            <p>Software Engineer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about"><i class="fas fa-user"></i></a></li>
+                    <li><a href="#skills"><i class="fas fa-cogs"></i></a></li>
+                    <li><a href="#projects"><i class="fas fa-laptop-code"></i></a></li>
+                    <li><a href="#experience"><i class="fas fa-briefcase"></i></a></li>
+                    <li><a href="#posts"><i class="fas fa-pen"></i></a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="custom-section" id="about">
+            <div class="section-content">
+                <img src="images/moha.jpg" alt="Mohamed Daud" id="profile-pic">
+                <h2>About Me</h2>
+                <p>
+                    Hello! I'm Mohamed, a passionate software engineer with a foundation rooted in the tech industry's practical and theoretical realms. Holding a Bachelor's in Information Systems, I've always been intrigued by the intricate dance between data, systems, and user needs.
+                    <span id="dots">...</span>
+                    <span id="more">As I delved deeper into this world, my interest led me to attain an MSc in Software Engineering, further enhancing my ability to craft efficient, robust, and user-centric solutions. Throughout my academic and professional journey, I've honed my technical skills and fostered a keen understanding of project dynamics, team collaboration, and the evolving tech landscape. From intricate back-end processes to seamless front-end experiences, I strive to bridge the gap between user expectations and technological capabilities. Let's transform ideas into digital reality, one line of code at a time.</span>
+                </p>
+                <button onclick="readMore()" id="readMoreBtn">Read More</button>
+            </div>
+        </section>
+           
+        <section class="custom-section" id="skills">
+            <h2>Software Engineer Skills</h2>
+            <div class="section-content skills-content">
+        
+                <!-- Web Development -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-globe"></i> Web Development</h3>
+                    <ul>
+                        <li><i class="fab fa-html5"></i> HTML</li>
+                        <li><i class="fab fa-css3-alt"></i> CSS</li>
+                        <li><i class="fab fa-js"></i> JavaScript</li>
+                    </ul>
+                </div>
+        
+                <!-- Databases -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <ul>
+                        <li><i class="fas fa-database"></i> SQL</li>
+                        <li><i class="fas fa-database"></i> MongoDB</li>
+                        <li><i class="fas fa-database"></i> Postgres</li>
+                    </ul>
+                </div>
+        
+                <!-- Cloud Computing -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> Cloud Computing</h3>
+                    <ul>
+                        <li><i class="fab fa-aws"></i> AWS</li>
+                        <li><i class="fab fa-google"></i> GCP</li>
+                        <li><i class="fab fa-microsoft"></i> Azure</li>
+                    </ul>
+                </div>
+        
+                <!-- Frameworks -->
+                <div class="skill-category">
+                    <h3><i class="fab fa-react"></i> Frameworks</h3>
+                    <ul>
+                        <li><i class="fab fa-react"></i> React</li>
+                        <li><i class="fab fa-vuejs"></i> Vue.js</li>
+                        <li><i class="fab fa-angular"></i> Angular</li>
+                    </ul>
+                </div>
+        
+                <!-- DevOps -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-infinity"></i> DevOps</h3>
+                    <ul>
+                        <li><i class="fab fa-docker"></i> Docker</li>
+                        <li><i class="fab fa-jenkins"></i> Jenkins</li>
+                        <li><i class="fas fa-hammer"></i> CI/CD</li>
+                    </ul>
+                </div>
+        
+                <!-- Security -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-shield-alt"></i> Security</h3>
+                    <ul>
+                        <li><i class="fas fa-shield-alt"></i> Penetration Testing</li>
+                        <li><i class="fas fa-user-secret"></i> Ethical Hacking</li>
+                        <li><i class="fas fa-lock"></i> Encryption</li>
+                    </ul>
+                </div>
+        
+                <!-- Testing -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-vial"></i> Testing</h3>
+                    <ul>
+                        <li><i class="fas fa-bug"></i> Debugging</li>
+                        <li><i class="fas fa-vial"></i> Unit Testing</li>
+                        <li><i class="fas fa-robot"></i> Automation</li>
+                    </ul>
+                </div>
+        
+                <!-- Communication -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-comments"></i> Communication</h3>
+                    <ul>
+                        <li><i class="fas fa-comments"></i> Teamwork</li>
+                        <li><i class="fas fa-presentation"></i> Presentations</li>
+                        <li><i class="fas fa-headset"></i> Customer Support</li>
+                    </ul>
+                </div>
+        
+            </div>
+        </section>
+        
+        
+        <!-- Projects Section -->
+        <section class="custom-section" id="projects">
+            <h2>Projects</h2>
+            <div class="section-content">
+                <i class="fas fa-laptop-code"></i>
+                <div class="project">
+                    <h3> Latest Projects</h3>
+                    <p>Dive into my repository of innovations and discover a plethora of projects that showcase my prowess in software engineering. From dynamic web applications to sophisticated algorithms, explore the bleeding edge of tech through my GitHub projects. Hungry for code? Click through to delve deeper!</p>
+                    <a href="https://github.com/yourusername/project-repo">GitHub Repo</a>
+                </div>
+                <!-- Add other projects here -->
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="custom-section" id="experience">
+            <h2>Experience</h2>
+            <div class="section-content">
+                <i class="fas fa-briefcase"></i>
+                <h3>Software Engineer at XYZ Corp</h3>
+                <p>Worked on building scalable web applications...</p>
+                <a href="mailto:daudceo@gmail.com?subject=CV Request&body=Hi there, I'd like to request your CV. Please send it to me at your earliest convenience. Thank you!" class="request-cv">Request CV</a>
+                <!-- Add other experiences here -->
+            </div>
+        </section>
+
+        <!-- Posts Section -->
+        <section class="custom-section" id="posts">
+            <h2>Posts</h2>
+            <div class="section-content">
+                <i class="fas fa-pen"></i>
+                <div class="post">
+                    <h3>Top Tech Trends</h3>
+                    <p> From quantum computing breakthroughs to the rise of the decentralized web, discover the innovations redefining our digital landscape. Stay caught up! </p>
+                    <a href="post-link.html">Read More</a>
+                </div>
+                <!-- Add other posts here -->
+            </div>
+        </section>
+
+        <section class="custom-section" id="contact">
+            <h2>Contact Me</h2>
+            <form action="/submit.php" method="post">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        
+    </div> <!-- closing content-wrap -->
+
+    <footer>
+        <a href="https://github.com/yourusername">GitHub</a> | 
+        <a href="https://www.linkedin.com/in/yourusername/">LinkedIn</a> | 
+        <a href="mailto:youremail@example.com">Email Me</a>
+        <p>&copy; <span id="copyright-year">2023</span> Mohamed. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <button id="back-to-top" title="Go to top">Top</button>
+
+</body>
+
+</html>
